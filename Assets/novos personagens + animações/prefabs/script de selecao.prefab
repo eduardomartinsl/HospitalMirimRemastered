@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &124106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 411328}
+  - component: {fileID: 11475322}
+  m_Layer: 0
+  m_Name: script de selecao
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &411328
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124106}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.473133, y: 1.3945961, z: -2.7331429}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11475322
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 124106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 676602149277fd8408fb58ec585e3bce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  selecionadoMedico: 0
+  selecionadoPaciente: 0
+  selecionou: {fileID: 0}
+  destacou: {fileID: 0}
+  cam: {fileID: 0}
+  menuDosMedicos: {fileID: 0}
+  menuDosPacientes: {fileID: 0}
+  emDesenvolvimento: {fileID: 0}
+  jalecos: []
+  setaPacientes: []
+  confirmaMedico: 0
+  confirmaPaciente: 0
+  LetreiroDeSelecaoDePersonagem: {fileID: 0}
+  LetreiroDeSelecaoDePaciente: {fileID: 0}
+  colisorDePacientes: []
+  ReferenciaParaSom: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 124106}
+  m_IsPrefabParent: 1

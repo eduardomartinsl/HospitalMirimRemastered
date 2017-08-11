@@ -1,0 +1,16 @@
+Atualizações realizadas: 
+
+	- Remoção do diálogo "Diálogo pós seringa" dos estágios de retirada de sangue e aplicação de medicamento;
+	- Aplicação do Zoom da câmera em ambos os procedimentos;
+	- Revisão dos diálogos desenvolvidos, incluindo os fatores: 
+		- Substituição da palavra "Remédio" pela palavra "Medicamento" em todos os diálogos;
+		- Substituição de "pequeno urso" por "Pequeno Urso";
+		- Revisão de ortografia.
+	- Aplicação dos dois garrotes no estágio de aplicação de medicamento;
+	- (Não pode ser executado no primeiro procedimento (não é possível colocar dois elementos no mesmo slot);
+	- Aumentada a janela de procedimentos a se escolher
+
+Necessidades: 
+	
+	- Desenvolvimento de uma nova imagem sem design de botões (Janela genérica);
+	- 
